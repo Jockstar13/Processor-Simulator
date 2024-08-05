@@ -4,4 +4,3 @@
 4 2 high
 3 6 low
 0 1 high
-1
