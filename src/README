@@ -1,0 +1,20 @@
+name a file exactly input.txt
+
+inside input.txt:
+---------------------------------------------------
+number of processors
+number of cycles
+any task file path
+---------------------------------------------------
+
+
+inside task file:
+---------------------------------------------------
+number of tasks
+creationtime1 requestedtime1 priority1
+creationtime2 requestedtime2 priority2
+creationtime3 requestedtime3 priority3
+creationtimeN requestedtimeN priorityN
+---------------------------------------------------
+
+output will be in terminal.
