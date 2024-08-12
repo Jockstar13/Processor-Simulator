@@ -43,8 +43,9 @@ This file should also be placed in the `src/main/resources` directory. It contai
 
 - `3` specifies the number of tasks.
 - Each line following represents a task with:
-
-    - Creation time  Requested time  Priority(`high` or `low`)
+- Creation time
+- Requested time
+- Priority (`high` or `low`)
 
 ## Documentation
 
