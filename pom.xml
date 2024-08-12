@@ -8,8 +8,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- Add your dependencies here -->
-        <!-- Example for JUnit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -17,7 +15,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Example for SLF4J -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>

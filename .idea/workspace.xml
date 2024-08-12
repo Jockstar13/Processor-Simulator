@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ff8db3c-c11e-4a7d-957d-69054db7b9d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/Launcher/SimulatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/core/ProcessorSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/core/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/core/Simulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/factory/ProcessorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/factory/TaskFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/input/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/input/InputLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/model/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/states/ProcessorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/states/TaskState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/strategy/PrioritySchedulingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/processorsimulator/strategy/SchedulingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/task.txt" afterDir="false" />
+    <list default="true" id="0ff8db3c-c11e-4a7d-957d-69054db7b9d6" name="Changes" comment="better version with higher cohesion and lower coupling">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoLink.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +44,6 @@
     "Application.runner.executor": "Run",
     "JUnit.ProcessorSimulatorTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/johnh/OneDrive/Desktop/Insertion_Order/processor-simulator",
@@ -75,8 +55,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\johnh\OneDrive\Desktop\Insertion_Order\processor-simulator\src\main\resources" />
       <recent name="C:\Users\johnh\OneDrive\Desktop\Insertion_Order\processor-simulator" />
+      <recent name="C:\Users\johnh\OneDrive\Desktop\Insertion_Order\processor-simulator\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atypon.processorsimulator.core" />
@@ -100,6 +80,27 @@
       <option name="presentableId" value="Default" />
       <updated>1723366883342</updated>
     </task>
+    <task id="LOCAL-00001" summary="better version with higher cohesion and lower coupling">
+      <option name="closed" value="true" />
+      <created>1723493481413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723493481413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="better version with higher cohesion and lower coupling">
+      <option name="closed" value="true" />
+      <created>1723494807827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723494807827</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="better version with higher cohesion and lower coupling" />
+    <option name="LAST_COMMIT_MESSAGE" value="better version with higher cohesion and lower coupling" />
   </component>
 </project>
